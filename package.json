@@ -13,7 +13,7 @@
   "scripts": {
     "postinstall": "bower install",
     "prestart": "npm install && standard",
-    "start": "http-server -a localhost -p 8000 -c-1"
+    "start": "http-server -a movies.node.js -p 8000 -c-1"
   },
   "standard": {
     "globals": [ "angular" ]
