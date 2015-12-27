@@ -7,12 +7,15 @@
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.3.1",
-    "http-server": "^0.6.1"
+    "http-server": "^0.6.1",
+    "standard": "^5.4.1"
   },
   "scripts": {
     "postinstall": "bower install",
-
-    "prestart": "npm install",
+    "prestart": "npm install && standard",
     "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "standard": {
+    "globals": [ "angular" ]
   }
 }
