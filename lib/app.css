@@ -1,0 +1,23 @@
+md-card {
+  width: 200px;
+}
+
+md-card.section-header {
+  width: 150px;
+}
+
+.md-fab .fa {
+  vertical-align: middle;
+}
+
+.movie-cover {
+  background-color: darkgray;
+  height: 150px;
+  text-align: center;
+  width: 100px;
+}
+
+.movie-cover .fa {
+  line-height: 150px;;
+  vertical-align: middle;
+}
