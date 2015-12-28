@@ -1,11 +1,9 @@
 <md-card>
-  <md-card-title>
-    <md-card-title-text>
-      <span class="md-headline">{{ movie.title }}</span>
-    </md-card-title-text>
-  </md-card-title>
   <md-card-content layout="row" layout-align="space-between">
-    <div class="movie-cover"><i class="fa fa-5x fa-film"></i></div>
+    <div class="movie-cover">
+      <i class="fa fa-5x fa-film"></i>
+      <md-tooltip>{{ movie.title }}</md-tooltip>
+    </div>
     <md-card-actions layout="column">
 
       <md-button class="md-fab md-mini">
