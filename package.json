@@ -16,6 +16,6 @@
     "start": "http-server -a movies.node.js -p 8000 -c-1"
   },
   "standard": {
-    "globals": [ "angular" ]
+    "globals": [ "angular", "Lazy" ]
   }
 }
